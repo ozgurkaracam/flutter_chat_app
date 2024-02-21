@@ -107,6 +107,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       onPressed: () async {
                         try {
                           _messageController.clear();
+                          FocusScope.of(context).unfocus();
 
                           await _messagesRef.add({
                             "email": _auth.currentUser!.email,
@@ -135,7 +136,6 @@ class MessageWidget extends StatelessWidget {
   });
 
   final _auth = FirebaseAuth.instance;
-
   final QueryDocumentSnapshot<Object?> item;
 
   @override

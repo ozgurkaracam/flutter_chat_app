@@ -29,19 +29,21 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Row(
-                  children: [
-                    Image.asset("assets/flash.png", width: 100, height: 100),
-                    AnimatedTextKit(
-                      animatedTexts: [
-                        TypewriterAnimatedText(
-                          'Flash Chat',
-                          textStyle: const TextStyle(fontSize: 40),
-                          speed: const Duration(milliseconds: 50),
-                        ),
-                      ],
-                    ),
-                  ],
+                FittedBox(
+                  child: Row(
+                    children: [
+                      Image.asset("assets/flash.png", width: 100, height: 100),
+                      AnimatedTextKit(
+                        animatedTexts: [
+                          TypewriterAnimatedText(
+                            'Flash Chat',
+                            textStyle: const TextStyle(fontSize: 40),
+                            speed: const Duration(milliseconds: 50),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
                 const SizedBox(
                   height: 40,
