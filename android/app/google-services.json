@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351456687609",
+    "project_id": "flashchat-ff443",
+    "storage_bucket": "flashchat-ff443.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351456687609:android:ad383bc4279360f1423928",
+        "android_client_info": {
+          "package_name": "com.example.fulutter_flashchat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwR_3K2gePsNLxFfxvOUp0Da7J97xz1NE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
